@@ -15,7 +15,7 @@ These JSON files contain the "source of truth" for the test vector, including:
 To automate the creation of these sidecar files, you can use the provided Rust utility which utilizes `ffprobe` and `ffmpeg`:
 
 ```bash
-cd scripts/generate_sidecar
+cd tools/generate_sidecar
 cargo run --release -- ../../path/to/media.mp3
 ```
 
