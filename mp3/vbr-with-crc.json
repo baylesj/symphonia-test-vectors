@@ -1,5 +1,5 @@
 {
-  "file": "repro.mp3",
+  "file": "vbr-with-crc.mp3",
   "expected": {
     "duration_frames": 132300,
     "sample_rate": 44100,

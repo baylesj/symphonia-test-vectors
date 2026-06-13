@@ -13,5 +13,5 @@ These JSON files contain the "source of truth" for the test vector, including:
 ## Files
 
 ### `mp3/`
-- `mp3/repro.mp3`: A 3-second VBR MP3 file with CRC protection enabled, used to test edge cases in Xing/Info tag heuristics ([Issue #516](https://github.com/pdeljanov/Symphonia/issues/516)).
-- `mp3/repro.json`: Expected metadata and PCM MD5 hash for the file above.
+- `mp3/vbr-with-crc.mp3`: A 3-second VBR MP3 file with CRC protection enabled, used to test edge cases in Xing/Info tag heuristics ([Issue #516](https://github.com/pdeljanov/Symphonia/issues/516)).
+- `mp3/vbr-with-crc.json`: Expected metadata and PCM MD5 hash for the file above.
