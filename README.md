@@ -10,6 +10,16 @@ These JSON files contain the "source of truth" for the test vector, including:
 - Metadata parameters (duration, sample rate, channels)
 - A checksum of the raw decoded PCM audio (e.g., MD5) to verify bit-exact decoding.
 
+### Generating Sidecars
+
+To automate the creation of these sidecar files, you can use the provided Python script which utilizes `ffprobe` and `ffmpeg`:
+
+```bash
+./scripts/generate_sidecar.py path/to/media.mp3
+```
+
+This will automatically query the file metadata and calculate the PCM checksum, generating a `path/to/media.json` file in the correct format.
+
 ## Files
 
 ### `mp3/`
