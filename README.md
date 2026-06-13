@@ -12,10 +12,11 @@ These JSON files contain the "source of truth" for the test vector, including:
 
 ### Generating Sidecars
 
-To automate the creation of these sidecar files, you can use the provided Python script which utilizes `ffprobe` and `ffmpeg`:
+To automate the creation of these sidecar files, you can use the provided Rust utility which utilizes `ffprobe` and `ffmpeg`:
 
 ```bash
-./scripts/generate_sidecar.py path/to/media.mp3
+cd scripts/generate_sidecar
+cargo run --release -- ../../path/to/media.mp3
 ```
 
 This will automatically query the file metadata and calculate the PCM checksum, generating a `path/to/media.mp3.json` file in the correct format.

@@ -1,0 +1,1 @@
+/Users/jophba/.gemini/tmp/symphonia-1/symphonia-test-vectors/scripts/generate_sidecar/target/debug/generate_sidecar: /Users/jophba/.gemini/tmp/symphonia-1/symphonia-test-vectors/scripts/generate_sidecar/src/main.rs
