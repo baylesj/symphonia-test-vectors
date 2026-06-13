@@ -4,6 +4,7 @@
     "duration_frames": 132300,
     "sample_rate": 44100,
     "channels": 2,
-    "pcm_md5": "3718b6892b285dcc2a85f66b1e419225"
+    "symphonia_pcm_md5": "b393eb100958c2e66a2d94ac4395b099",
+    "ffmpeg_pcm_md5": "3718b6892b285dcc2a85f66b1e419225"
   }
 }
