@@ -67,7 +67,7 @@ def main():
         "expected": expected
     }
 
-    sidecar_path = os.path.splitext(file_path)[0] + ".json"
+    sidecar_path = file_path + ".json"
     with open(sidecar_path, "w") as f:
         json.dump(sidecar_data, f, indent=2)
         f.write("\n")

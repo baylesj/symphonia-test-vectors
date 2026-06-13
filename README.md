@@ -18,10 +18,10 @@ To automate the creation of these sidecar files, you can use the provided Python
 ./scripts/generate_sidecar.py path/to/media.mp3
 ```
 
-This will automatically query the file metadata and calculate the PCM checksum, generating a `path/to/media.json` file in the correct format.
+This will automatically query the file metadata and calculate the PCM checksum, generating a `path/to/media.mp3.json` file in the correct format.
 
 ## Files
 
 ### `mp3/`
 - `mp3/vbr-with-crc.mp3`: A 3-second VBR MP3 file with CRC protection enabled, used to test edge cases in Xing/Info tag heuristics ([Issue #516](https://github.com/pdeljanov/Symphonia/issues/516)).
-- `mp3/vbr-with-crc.json`: Expected metadata and PCM MD5 hash for the file above.
+- `mp3/vbr-with-crc.mp3.json`: Expected metadata and PCM MD5 hash for the file above.
